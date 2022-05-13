@@ -5,7 +5,7 @@ from rest_framework import status
 from rest_framework.renderers import TemplateHTMLRenderer
 from rest_framework.response import Response
 from rest_framework.views import APIView
-
+ 
 from tutorials.models import Tutorial
 from tutorials.serializers import TutorialSerializer
 from rest_framework.decorators import api_view
